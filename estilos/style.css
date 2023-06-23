@@ -2,7 +2,7 @@
 
 /* PALETA DE CORES
 Azul: #46237A
-Amarelo: #E6AF2E
+Amarelo: #CEFF1A
 Cinza claro: #87919E
 Cinza escuro: #3C3744
 Preto: #272635 */
@@ -37,8 +37,10 @@ main {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
-
     overflow: hidden;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 #imagem {
@@ -51,5 +53,4 @@ main {
 #formulario {
     display: block;
     padding: 10px;
-
 }
